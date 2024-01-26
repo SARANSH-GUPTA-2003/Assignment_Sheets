@@ -9,11 +9,11 @@ int main()
     else
     printf("Given number is not even\n");
 
-    int b;
-    printf("Enter a number: "); scanf("%d",&b);
-    if(b % 3 == 0)
+    printf("Enter a number: "); scanf("%d",&a);
+    if(a % 3 == 0)
     printf("Given number is divisible by 3\n");
     else
     printf("Given number is not divisble by 3\n");
-
+    
+return 0;
 }
