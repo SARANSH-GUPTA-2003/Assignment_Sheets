@@ -4,16 +4,16 @@ int main()
     int a;
     printf("Enter a number: "); scanf("%d",&a);
 
-    if(a % 2 == 0)
-    printf("Given number is even\n");
-    else
+    if(a % 2)
     printf("Given number is not even\n");
+    else
+    printf("Given number is even\n");
 
     int b;
     printf("Enter a number: "); scanf("%d",&b);
-    if(b % 3 == 0)
-    printf("Given number is divisible by 3\n");
+    if(b % 3)
+    printf("Given number is not divisible by 3\n");
     else
-    printf("Given number is not divisble by 3\n");
+    printf("Given number is divisble by 3\n");
 
 }
